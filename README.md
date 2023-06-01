@@ -49,3 +49,8 @@ If you have any questions or suggestions, feel free to open an issue or a pull r
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
+
+## Sample
+
+https://github.com/Luohuhu/TheMenu/assets/51892662/188dc1c8-3182-44d3-b8f1-fcb80c685108
+
