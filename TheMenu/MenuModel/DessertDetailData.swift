@@ -59,7 +59,6 @@ struct IMPair: Hashable {
 
 // filter nil and empty value
 extension DessertDetailData {
-    //typealias IMPair = (strIngredient: String?, strMeasure: String?)
     var IMPairList :[IMPair] {
         [IMPair(strIngredient: strIngredient1, strMeasure: strMeasure1),
          IMPair(strIngredient: strIngredient2, strMeasure: strMeasure2),

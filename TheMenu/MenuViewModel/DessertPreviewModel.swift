@@ -21,6 +21,10 @@ class DessertPreviewModel: ObservableObject {
                 (data, respone, error) in
                 if let dessertData = data {
                     self.mealsData = self.parseJSON(dessertData: dessertData)!
+                    // sort alphabetically just in case
+                    self.mealsData.sort{
+                        $0.name < $1.name
+                    }
                 }
             }
             task.resume()

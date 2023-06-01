@@ -11,15 +11,28 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Welcome to The Menu")
-                Text("Click the button to browse recipes")
+                Text("Welcome to The Menu").font(.largeTitle).foregroundColor(.brown).fontWeight(.bold)
                 Spacer()
+                AsyncImage(url: URL(string: "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg"), scale: 2).cornerRadius(360.0)
+                Spacer()
+                Text("Click the button to browse recipes of Dessert").foregroundColor(.gray)
                 NavigationLink(destination: MenuView(viewModel: DessertPreviewModel()).navigationBarBackButtonHidden(true)){
                     Text("Recipes")
+                        .padding()
+                        .foregroundColor(.white)
+                        .font(.largeTitle)
+                        .frame(width: 200)
+                        .shadow(radius: 5)
+                        .background(
+                            Capsule()
+                                .foregroundColor(.brown)
+                                .padding(.horizontal, -10)
+                        )
+                        
                 }
             }
             .padding()
-        }
+        }.background(Color(red: 0.95, green: 0.95, blue: 0.95))
     }
 }
 

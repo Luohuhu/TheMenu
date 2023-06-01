@@ -10,10 +10,12 @@ import SwiftUI
 struct MenuView: View {
     @ObservedObject var viewModel: DessertPreviewModel
     var body: some View {
-        //Text(viewModel.mealsData[0].strMeal)
-        List(viewModel.mealsData) { mealData in
-            DessertCellView(dessert: mealData)
-        }
+        VStack{
+            Text("Dessert Category").font(.largeTitle).foregroundColor(.white)
+            List(viewModel.mealsData) { mealData in
+                DessertCellView(dessert: mealData)
+            }
+        }.background(Color(.brown))
     }
 }
 
