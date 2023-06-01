@@ -42,8 +42,6 @@ This architecture provides a clear separation of concerns and simplifies the man
 - URLSession for networking
 - JSON parsing
 
-Note: While testing, if you encounter any problems with fetching data from the API, it might be due to rate limitations on the API side. If you need to use this app for heavy testing, consider getting a paid plan from TheMealDB.
-
 ## Contact
 If you have any questions or suggestions, feel free to open an issue or a pull request.
 
