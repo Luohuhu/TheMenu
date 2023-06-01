@@ -21,6 +21,8 @@
 		A42DC21F2A287D630012CCD6 /* DessertCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC21E2A287D630012CCD6 /* DessertCellView.swift */; };
 		A42DC2212A2880D90012CCD6 /* DessertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC2202A2880D90012CCD6 /* DessertDetailView.swift */; };
 		A42DC2232A28855E0012CCD6 /* DessertDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC2222A28855E0012CCD6 /* DessertDetailViewModel.swift */; };
+		A42DC2252A288A110012CCD6 /* DessertDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC2242A288A110012CCD6 /* DessertDetailData.swift */; };
+		A42DC2272A288E290012CCD6 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC2262A288E290012CCD6 /* MealDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		A42DC21E2A287D630012CCD6 /* DessertCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertCellView.swift; sourceTree = "<group>"; };
 		A42DC2202A2880D90012CCD6 /* DessertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailView.swift; sourceTree = "<group>"; };
 		A42DC2222A28855E0012CCD6 /* DessertDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailViewModel.swift; sourceTree = "<group>"; };
+		A42DC2242A288A110012CCD6 /* DessertDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailData.swift; sourceTree = "<group>"; };
+		A42DC2262A288E290012CCD6 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 			children = (
 				A42DC2172A28511F0012CCD6 /* DessertData.swift */,
 				A42DC21C2A2875980012CCD6 /* MealsData.swift */,
+				A42DC2242A288A110012CCD6 /* DessertDetailData.swift */,
+				A42DC2262A288E290012CCD6 /* MealDetail.swift */,
 			);
 			path = MenuModel;
 			sourceTree = "<group>";
@@ -305,9 +311,11 @@
 				A42DC1E82A26A1BF0012CCD6 /* ContentView.swift in Sources */,
 				A42DC2182A28511F0012CCD6 /* DessertData.swift in Sources */,
 				A42DC2212A2880D90012CCD6 /* DessertDetailView.swift in Sources */,
+				A42DC2252A288A110012CCD6 /* DessertDetailData.swift in Sources */,
 				A42DC21B2A28574A0012CCD6 /* DessertPreviewModel.swift in Sources */,
 				A42DC2122A27F4F90012CCD6 /* MenuView.swift in Sources */,
 				A42DC2232A28855E0012CCD6 /* DessertDetailViewModel.swift in Sources */,
+				A42DC2272A288E290012CCD6 /* MealDetail.swift in Sources */,
 				A42DC21F2A287D630012CCD6 /* DessertCellView.swift in Sources */,
 				A42DC21D2A2875980012CCD6 /* MealsData.swift in Sources */,
 				A42DC1E62A26A1BF0012CCD6 /* TheMenuApp.swift in Sources */,

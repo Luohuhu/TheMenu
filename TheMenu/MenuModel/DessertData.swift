@@ -9,9 +9,9 @@ import Foundation
 import SwiftUI
 
 struct DessertData : Decodable, Identifiable {
-    var name: String
-    var imgURL: String
-    var id: String
+    let name: String
+    let imgURL: String
+    let id: String
     enum CodingKeys: String, CodingKey {
             case name = "strMeal"
             case imgURL = "strMealThumb"

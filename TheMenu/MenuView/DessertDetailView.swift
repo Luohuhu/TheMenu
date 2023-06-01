@@ -10,7 +10,11 @@ import SwiftUI
 struct DessertDetailView: View {
     @ObservedObject var viewModel: DessertDetailViewModel
     var body: some View {
-        Text(viewModel.dessertData.id)
+        if let data = viewModel.detailData {
+            Text(data.strMeal)
+            Text(data.strInstructions)
+        }
+        
     }
 }
 
