@@ -11,7 +11,9 @@ struct DessertCellView: View {
     @State var dessert: DessertData
     var body: some View {
         NavigationLink(destination: DessertDetailView(viewModel: .init(dessertData: dessert))) {
+            AsyncImage(url: URL(string: dessert.imgURL), scale: 10)
             Text(dessert.name)
+            
         }
     }
 }

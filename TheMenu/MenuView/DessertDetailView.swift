@@ -12,7 +12,20 @@ struct DessertDetailView: View {
     var body: some View {
         if let data = viewModel.detailData {
             Text(data.strMeal)
+            AsyncImage(url: URL(string: data.strMealThumb), scale: 5)
             Text(data.strInstructions)
+            VStack {
+                ForEach(data.IMPairList, id: \.self){ im in
+                    Text(im.strMeasure!)
+                    Text(im.strIngredient!)
+                }
+            }
+//            data.IMPairList.forEach{ im in
+//                HStack{
+//                    Text(im.strMeasure!)
+//                    Text(im.strIngredient!)
+//                }
+//            }
         }
         
     }
